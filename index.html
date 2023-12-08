@@ -161,10 +161,10 @@
       }
       
   .lydiasection1{
-      float: left;
-      width: 200px;
-      height: 150px;
-      padding: 20px;
+float: left; 
+  width: 200px;
+  height: 150px;
+  padding: 20px;
       
       }
       
@@ -174,33 +174,40 @@
       padding: 20px;
        z-index: 1;
       }
-      .lydiasection4{
-      float: left;
-      width: 200px;
-      height: 150px;
-      padding: 20px;
       
+      .lydiasection4 img{
+          width: 100px;
+  height: 75px;
+  margin-bottom: 10px;
       }
-      .lydiasection5{
-      float: left;
-      width: 200px;
-      height: 150px;
-      padding: 20px;
       
-      }
-       .lydiasection6{
-      float: left;
-      width: 200px;
-      height: 150px;
-      padding: 20px;
+      .lydiasection5,
+      .lydiasection6 {
+  width: 100px;
+  height: 75px;
+  margin-left: 10px;
+}
+      @media screen and (max-width: 768px) {
+  .lydiasection1 {
+    width: 100px;
+    height: 75px;
+    padding: 10px;
+  }
       
-      }
+      
+      .lydiasection4 img,
+  .lydiasection5,
+  .lydiasection6 {
+    width: 80px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+}
       
       .lydiasection3 {
-        float: left;
-        width: 300px;
-        height: 400px;
-  
+        display: flex;
+  justify-content: center;
       }
      
       .header2 {
@@ -364,26 +371,24 @@
     </p>
 
   </div>
-  <div id="section1">
-    
- <h1 class="header2">
-   biography
-    </h1>
-   <img src="Screen Shot 2023-12-06 at 11.58.58 PM.png" alt="baby photo" class="lydiasection1">
-    
-     <img src="Screen Shot 2023-12-06 at 11.59.59 PM.png" alt="family photo" class="lydiasection4">
-    
-     <img src="Screen Shot 2023-12-07 at 6.20.35 PM.png" alt="family photo 2" class="lydiasection5">
-    
-     <img src="Screen Shot 2023-12-07 at 6.25.59 PM.png" alt="family photo 2" class="lydiasection6">
-    <h2>
-      Background
-    </h2>
-    <p>
-    background
-    </p>
+ <div id="section1">
+  <h1 class="header2">Biography</h1>
 
+  <div class="lydiasection3">
+    <img src="Screen Shot 2023-12-06 at 11.58.58 PM.png" alt="baby photo" class="lydiasection1">
+      
   </div>
+
+  <div class="lydiasection4">
+    <img src="Screen Shot 2023-12-06 at 11.59.59 PM.png" alt="family photo" class="lydiasection4">
+    <img src="Screen Shot 2023-12-07 at 6.20.35 PM.png" alt="family photo 2" class="lydiasection5">
+    <img src="Screen Shot 2023-12-07 at 6.25.59 PM.png" alt="family photo 3" class="lydiasection6">
+  </div>
+
+  <h2>Background</h2>
+  <p>Background information goes here.</p>
+</div>
+
 
   <div id="section2">
     <h1 class="header6">
